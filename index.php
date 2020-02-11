@@ -55,7 +55,7 @@
 
 
 
- <nav id="nav_main" style="position: fixed;  top: 0px;">
+ <nav id="nav_main" style="position: fixed;  top: 0px; z-index: 100;">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
   	  <a href="#!" data-target="slide-out" class="sidenav-trigger"><i class="material-icons center">menu</i></a>
@@ -109,34 +109,76 @@
     <li><a class="sidenav-close" href="#!">Cerrar</a></li>
   </ul>
 
- <div class="scroll" >
- <div class="row">
+<div class="scroll">
+  
+  <!--<div class="row">
  	<div class="col s4">imagen 1</div>
  	<div class="col s4">imagen 2</div>
  	<div class="col s4">imagen 3</div>
  </div>
+ -->
 
+ <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="imagen/2x1.png">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sodales nisl. In placerat nunc leo, id vestibulum nibh aliquam ac. Morbi hendrerit turpis sit amet magna pretium, vitae consequat libero dictum. Sed pellentesque lectus ut enim ornare, non dignissim risus tincidunt. Vestibulum metus nunc, fringilla nec leo eget, ornare volutpat nunc. Aliquam id sapien eget odio ullamcorper ultricies vel vitae dolor. Pellentesque a ex ex. Sed a facilisis odio, et imperdiet purus. Praesent mollis euismod ligula a rhoncus. Curabitur ut iaculis orci, varius dictum orci. Morbi sed tempus risus, a fringilla tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus laoreet sapien vitae malesuada. Morbi sit amet nisl dignissim, luctus nunc ac, faucibus leo. Quisque a quam id tortor auctor sollicitudin.
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sodales nisl. In placerat nunc leo, id vestibulum nibh aliquam ac. Morbi hendrerit turpis sit amet magna pretium, vitae consequat libero dictum. Sed pellentesque lectus ut enim ornare, non dignissim risus tincidunt. Vestibulum metus nunc, fringilla nec leo eget, ornare volutpat nunc. Aliquam id sapien eget odio ullamcorper ultricies vel vitae dolor. Pellentesque a ex ex. Sed a facilisis odio, et imperdiet purus. Praesent mollis euismod ligula a rhoncus. Curabitur ut iaculis orci, varius dictum orci. Morbi sed tempus risus, a fringilla tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus laoreet sapien vitae malesuada. Morbi sit amet nisl dignissim, luctus nunc ac, faucibus leo. Quisque a quam id tortor auctor sollicitudin.
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sodales nisl. In placerat nunc leo, id vestibulum nibh aliquam ac. Morbi hendrerit turpis sit amet magna pretium, vitae consequat libero dictum. Sed pellentesque lectus ut enim ornare, non dignissim risus tincidunt. Vestibulum metus nunc, fringilla nec leo eget, ornare volutpat nunc. Aliquam id sapien eget odio ullamcorper ultricies vel vitae dolor. Pellentesque a ex ex. Sed a facilisis odio, et imperdiet purus. Praesent mollis euismod ligula a rhoncus. Curabitur ut iaculis orci, varius dictum orci. Morbi sed tempus risus, a fringilla tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus laoreet sapien vitae malesuada. Morbi sit amet nisl dignissim, luctus nunc ac, faucibus leo. Quisque a quam id tortor auctor sollicitudin.
-</p>
+ <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="imagen/product/ima1.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+ <div class="row" pad>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="imagen/product/ima2.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sodales nisl. In placerat nunc leo, id vestibulum nibh aliquam ac. Morbi hendrerit turpis sit amet magna pretium, vitae consequat libero dictum. Sed pellentesque lectus ut enim ornare, non dignissim risus tincidunt. Vestibulum metus nunc, fringilla nec leo eget, ornare volutpat nunc. Aliquam id sapien eget odio ullamcorper ultricies vel vitae dolor. Pellentesque a ex ex. Sed a facilisis odio, et imperdiet purus. Praesent mollis euismod ligula a rhoncus. Curabitur ut iaculis orci, varius dictum orci. Morbi sed tempus risus, a fringilla tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus laoreet sapien vitae malesuada. Morbi sit amet nisl dignissim, luctus nunc ac, faucibus leo. Quisque a quam id tortor auctor sollicitudin.
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sodales nisl. In placerat nunc leo, id vestibulum nibh aliquam ac. Morbi hendrerit turpis sit amet magna pretium, vitae consequat libero dictum. Sed pellentesque lectus ut enim ornare, non dignissim risus tincidunt. Vestibulum metus nunc, fringilla nec leo eget, ornare volutpat nunc. Aliquam id sapien eget odio ullamcorper ultricies vel vitae dolor. Pellentesque a ex ex. Sed a facilisis odio, et imperdiet purus. Praesent mollis euismod ligula a rhoncus. Curabitur ut iaculis orci, varius dictum orci. Morbi sed tempus risus, a fringilla tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus laoreet sapien vitae malesuada. Morbi sit amet nisl dignissim, luctus nunc ac, faucibus leo. Quisque a quam id tortor auctor sollicitudin.
-</p>
- 	
+ <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="imagen/product/ima3.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div> 	
  </div>
+
 
  <nav  id="nav_main" style="position: fixed;  bottom: 0px;">
     <div class="nav-wrapper">
@@ -148,7 +190,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sodales nisl. I
       </ul>
     </div>
   </nav>
+
 </body>
+
 <script type="text/javascript">
   function search_nav(id){
   	if (!id){
